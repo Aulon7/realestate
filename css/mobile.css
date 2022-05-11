@@ -1,3 +1,29 @@
+/* MEDIA QUERIES FOR SMARTPHONES  */
+@media screen and (max-width: 500px) {
+  #nav-menu li {
+    font-size: 1.2rem !important;
+    transition: 0.3s ease-in-out;
+  }
+
+  #navbar #nav-menu li a:hover {
+    color: rgb(21, 21, 237);
+  }
+
+  #logo {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    justify-items: center;
+  }
+
+  #contact .cards-container {
+    grid-template-columns: 250px;
+  }
+  #footer .footer-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+
 /* MEDIA QUERIES FOR IPADS */
 @media screen and (max-width: 900px) {
   #navbar .main-logo {
@@ -91,30 +117,5 @@
 
   #footer .footer-content {
     grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* MEDIA QUERIES FOR SMARTPHONES  */
-@media screen and (max-width: 500px) {
-  #nav-menu li {
-    font-size: 1.2rem !important;
-    transition: 0.3s ease-in-out;
-  }
-
-  #navbar #nav-menu li a:hover {
-    color: rgb(21, 21, 237);
-  }
-
-  #logo {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 2rem;
-    justify-items: center;
-  }
-
-  #contact .cards-container {
-    grid-template-columns: 250px;
-  }
-  #footer .footer-content {
-    grid-template-columns: 1fr;
   }
 }
